@@ -1,7 +1,7 @@
 import { SlashCommandBuilder } from "@discordjs/builders";
 import { MessageEmbed } from "discord.js";
 
-
+// control queue
 module.exports = {
     data: new SlashCommandBuilder()
     .setName('queue')

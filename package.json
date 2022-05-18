@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,8 +15,12 @@
     "@discordjs/opus": "^0.5.3",
     "@discordjs/rest": "^0.4.1",
     "@discordjs/voice": "^0.9.0",
+    "discord-api-types": "^0.33.0",
     "discord-player": "^5.2.2",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.17.10"
   }
 }
