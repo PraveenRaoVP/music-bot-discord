@@ -1,14 +1,13 @@
 /*const Discord = require("discord.js")
 const dotenv = require("dotenv")
 const { REST } = require("@discordjs/rest")
-const { Routes } = require("@discord-api-types/v9")
 const fs = require("fs")
 const { Player } = require("discord-player")*/
 import Discord from "discord.js"
 import dotenv from "dotenv";
 import { REST } from "@discordjs/rest";
-//import { Routes } from "@discord-api-types/v9";
-import { Routes } from 'discord-api-types'
+//const { Routes } = require("@discord-api-types/v9")
+import { Routes } from "@discord-api-types/v9";
 import fs from "fs";
 import { Player } from "discord-player";
 
@@ -18,8 +17,8 @@ const TOKEN = process.env.TOKEN
 
 const LOAD_SLASH = process.argv[2] == "load"
 
-const CLIENT_ID = "973596980506951700"
-const GUILD_ID = "898615321643069480"
+const CLIENT_ID = ""
+const GUILD_ID = ""
 
 const client = new Discord.Client({
     intents: [
